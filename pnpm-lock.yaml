@@ -28,8 +28,8 @@ importers:
         version: 3.15.4
     devDependencies:
       '@effect/language-service':
-        specifier: link:../language-service/dist
-        version: link:../language-service/dist
+        specifier: 0.17.1
+        version: 0.17.1
       '@sveltejs/adapter-auto':
         specifier: ^6.0.0
         version: 6.0.1(@sveltejs/kit@2.21.2(@sveltejs/vite-plugin-svelte@5.1.0(svelte@5.33.14)(vite@6.3.5))(svelte@5.33.14)(vite@6.3.5))
@@ -78,6 +78,9 @@ packages:
         optional: true
       lmdb:
         optional: true
+
+  '@effect/language-service@0.17.1':
+    resolution: {integrity: sha512-dA0DamelGlQtCppi8k4Bqq/Exr2L6anjtqzlj9Xf27eAyNdapvnqrwzDiQXMYD8zb4Xvul3gQuYBzvfFVz0baQ==}
 
   '@effect/platform-node-shared@0.35.5':
     resolution: {integrity: sha512-F0Hh+aueRxOw2vqo9LNqWh31ch5WBhz0Hp0vYQ8jntjLOsvN5oX/0JbGO4E5BNsMZV5HCraP6I4ACjP3KUnvCQ==}
@@ -920,6 +923,8 @@ snapshots:
       '@effect/platform': 0.82.7(effect@3.15.4)
       effect: 3.15.4
       uuid: 11.1.0
+
+  '@effect/language-service@0.17.1': {}
 
   '@effect/platform-node-shared@0.35.5(@effect/cluster@0.34.5(@effect/platform@0.82.7(effect@3.15.4))(@effect/rpc@0.59.9(@effect/platform@0.82.7(effect@3.15.4))(effect@3.15.4))(@effect/sql@0.35.7(@effect/experimental@0.46.7(@effect/platform@0.82.7(effect@3.15.4))(effect@3.15.4))(@effect/platform@0.82.7(effect@3.15.4))(effect@3.15.4))(effect@3.15.4))(@effect/platform@0.82.7(effect@3.15.4))(@effect/rpc@0.59.9(@effect/platform@0.82.7(effect@3.15.4))(effect@3.15.4))(@effect/sql@0.35.7(@effect/experimental@0.46.7(@effect/platform@0.82.7(effect@3.15.4))(effect@3.15.4))(@effect/platform@0.82.7(effect@3.15.4))(effect@3.15.4))(effect@3.15.4)':
     dependencies:
